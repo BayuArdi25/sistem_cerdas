@@ -18,9 +18,6 @@ public class splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        progressBar = findViewById(R.id.progressBar); // Mendapatkan referensi ProgressBar dari layout
-        progressBar.setIndeterminate(true); // Mengatur ProgressBar sebagai indeterminate (berputar)
-
         handler = new Handler();
 
         // Handler untuk menangani jeda dan pindah ke MainActivity setelah waktu tertentu
